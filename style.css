@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(red,blue);
+    animation-name: fondo;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes fondo {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
