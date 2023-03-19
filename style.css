@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient( 70deg, rgb(10, 0, 25),rgb(20, 0, 15));
+    
+}
+
+#imagenes {
+    
+}
+#aspas {
+   position: absolute;
+   width: 27%;
+   left: 34.5%;
+   top: 18.7%;
+   animation-name: aspas;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+#circulo {
+    position: absolute;
+    width: 43%;
+    left: 26.4%;
+    top: 2.5%;
+    animation-name: circulo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aspas{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -webkit-filter: brightness(0.3);
+    }
+    50%{
+        -webkit-filter: brightness(1.2);
+    }
+    100%{
+        -webkit-transform: rotate(-720deg);
+        -webkit-filter: brightness(0.3);
+    }
+}
+@-webkit-keyframes circulo{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -webkit-filter: brightness(0.3);
+    } 
+    50%{
+        -webkit-filter: brightness(1.2);
+    }
+    100%{
+        -webkit-transform: rotate(720deg);
+        -webkit-filter: brightness(0.3);
+    }
+}
