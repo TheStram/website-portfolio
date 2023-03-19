@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* para llamar objetos simples es sin "." o "#"
+para llamar clases se usa "." y para llamar IDs se usa "#"*/
+body {
+    background-color: rgb(15, 15, 15);
+}
+h1 {
+    color: aliceblue;
+    z-index: -1;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+}
+
+#aspas {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 32%;
+   margin: auto;
+   -webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	 animation: scale-up-center,girar00 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+#circulo {
+    position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 50%;
+   margin: auto;
+   -webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	  animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
+}
+
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  @keyframes girar00 {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  
