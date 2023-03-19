@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,3 +15,6 @@
     </div>
 </body>
 </html>
+<?php 
+    header("refresh:5;url=page/index.html");
+?>
