@@ -1,1 +1,0 @@
-alert ("jaja te mamaste")
