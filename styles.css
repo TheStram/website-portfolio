@@ -26,7 +26,7 @@ h1 {
    width: 32%;
    margin: auto;
    -webkit-animation: scale-up-center 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	 animation: scale-up-center,girar00 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   animation: scale-up-center,girar00 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
    animation-iteration-count: infinite;
 }
 
@@ -39,8 +39,8 @@ h1 {
    width: 50%;
    margin: auto;
    -webkit-animation: scale-up-center 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	  animation: scale-up-center 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-iteration-count: infinite;
+   animation: scale-up-center 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   animation-iteration-count: infinite;
   
 }
 
